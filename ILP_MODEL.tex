@@ -1,4 +1,13 @@
-min \sum_{i\in ALL}\sum_{j\in ALL}\sum_{a\in A} x_{i,j,a}*distance_{i,j}\ +\ \sum_{i\in C}\sum_{a\in A}w_{i,a}\ +\ \sum_{i\in RBLE}\sum_{a\in A}s_{i,a} \\
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{ILP_MODEL}
+\author{xinoh78031 }
+\date{June 2021}
+\usepackage[margin=0.5in]{geometry}
+
+\begin{document}
+min travel\_cost*\sum_{i\in ALL}\sum_{j\in ALL}\sum_{a\in A} x_{i,j,a}*distance_{i,j}\ +\ wait\_cost*\sum_{i\in C}\sum_{a\in A}w_{i,a}\ +\ \sum_{i\in RBLE}\sum_{a\in A}s_{i,a} \\
 {}\qquad1)\qquad \sum_{i\in ALL}\sum_{a\in A} x_{i,j,a} = 1\ ,\qquad j\in C\\
 {}\qquad2)\qquad \sum_{i\in ALL}\sum_{a\in A} x_{i,j,a} \leq  1\ ,\qquad j\in FO\\
 {}\qquad3)\qquad \sum_{j\in REAL} x_{start,j,a} = 1\ ,\qquad a\in A\\
@@ -46,3 +55,4 @@ min \sum_{i\in ALL}\sum_{j\in ALL}\sum_{a\in A} x_{i,j,a}*distance_{i,j}\ +\ \su
 {}\qquad\qquad\qquad REAL = \{0,...,clients\}\\
 {}\qquad\qquad\qquad RBLE = ALL-\{s\}\\
 {}\qquad\qquad\qquad FO = \{P+2,...,2clients+1\}
+\end{document}
