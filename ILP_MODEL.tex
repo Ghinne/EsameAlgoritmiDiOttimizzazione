@@ -16,7 +16,7 @@ min travel\_cost*\sum_{i\in ALL}\sum_{j\in ALL}\sum_{a\in A} x_{i,j,a}*distance_
 {}\qquad6)\qquad \sum_{i\in ALL} x_{i,h,a}\ -\ \sum_{j\in ALL} x_{h,j,a} = 0\ ,\qquad h\in ALL,\ a\in A\\
 {}\qquad7)\qquad x_{i,i,a} = 0\ ,\qquad i\in ALL,\ a\in A\\
 {}\qquad8)\qquad c_{j,a} = service_j*\sum_{i\in ALL}x_{i,j,a} \ ,\qquad i\in C,\ a\in A\\
-{}\qquad9)\qquad \sum_{i\in ALL}\sum_{j\in o+FO}c_{j,a}*x_{i,j,a} = service_{o}\ ,\qquad a\in A\\
+{}\qquad9)\qquad \sum_{i\in ALL}\sum_{j\in o+FO}c_{j,a}*x_{i,j,a} >= service_{o}\ ,\qquad a\in A\\
 {}\qquad10)\qquad c_{j,a} \geq  x_{i,j,a}\ ,\qquad i\in ALL,\ j\in RBLE,\ a\in A\\
 {}\qquad11)\qquad \sum_{i\in ALL}\sum_{i\in o+FO}x_{i,j,a} \geq 1\ ,\qquad a\in A\\
 {}\qquad12)\qquad x_{i,j,a} = 0\ ,\qquad i\in o+FO,\ j\in o+FO,\ a\in A\\
