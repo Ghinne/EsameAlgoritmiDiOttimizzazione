@@ -1,0 +1,53 @@
+Agent 1
+   POSITION  COST TO REACH  REACHED AT  SERVICE TIME  LEAVING TIME  LUNCH_BEFORE  WAIT_BEFORE
+0        14            0.0      1000.0        2400.0        3400.0         False       1000.0
+1         7          700.0      4100.0        2400.0        6500.0         False          0.0
+2        17          446.0      9000.0        2400.0       11400.0         False       2054.0
+3         9          280.0     14000.0        2400.0       16400.0         False       2320.0
+4        16          334.0     20600.0        2400.0       23000.0          True       2066.0
+5        23          440.0     23600.0        2400.0       26000.0         False        160.0
+6        27           71.0     26300.0        2400.0       28700.0         False        229.0
+
+Agent 2
+   POSITION  COST TO REACH  REACHED AT  SERVICE TIME  LEAVING TIME  LUNCH_BEFORE  WAIT_BEFORE
+0        21            0.0      3000.0        2400.0        5400.0         False       3000.0
+1        11          114.0      7000.0        2400.0        9400.0         False       1486.0
+2         3          474.0     11600.0        2400.0       14000.0         False       1726.0
+3        18           70.0     16000.0        2400.0       18400.0         False       1930.0
+4        15          495.0     20800.0        2400.0       23200.0          True        105.0
+5        26          136.0     23500.0        2400.0       25900.0         False        164.0
+
+Agent 3
+   POSITION  COST TO REACH  REACHED AT  SERVICE TIME  LEAVING TIME  LUNCH_BEFORE  WAIT_BEFORE
+0        13            0.0      3670.0        2400.0        6070.0         False       3670.0
+1         6          430.0      6500.0        2400.0        8900.0         False          0.0
+2        20          400.0     13300.0        2400.0       15700.0         False       4000.0
+3        10          228.0     16000.0        2400.0       18400.0         False         72.0
+4         4          614.0     23000.0        2400.0       25400.0          True       2186.0
+5         1          144.0     25800.0        2400.0       28200.0         False        256.0
+
+Agent 4
+  POSITION  COST TO REACH  REACHED AT  SERVICE TIME  LEAVING TIME  LUNCH_BEFORE  WAIT_BEFORE
+0        8            0.0      4600.0        2400.0        7000.0         False       4600.0
+1       19          798.0      8220.0        2400.0       10620.0         False        422.0
+2        5          361.0     10981.0        2400.0       13381.0         False          0.0
+3       24          819.0     14200.0        2400.0       16600.0         False          0.0
+4   OFFICE          604.0     19004.0        3600.0        3600.0          True          0.0
+
+Agent 5
+  POSITION  COST TO REACH  REACHED AT  SERVICE TIME  LEAVING TIME  LUNCH_BEFORE  WAIT_BEFORE
+0   OFFICE            0.0         0.0        3600.0        3600.0         False          0.0
+1       12            0.0      5700.0        2400.0        8100.0         False          0.0
+2   OFFICE          648.0      8748.0        3600.0        3600.0         False          0.0
+3       22            0.0     13000.0        2400.0       15400.0         False          0.0
+4   OFFICE          594.0     17794.0        3600.0        3600.0          True          0.0
+5       25            0.0     24800.0        2400.0       27200.0         False          0.0
+
+Agent 6
+  POSITION  COST TO REACH  REACHED AT  SERVICE TIME  LEAVING TIME  LUNCH_BEFORE  WAIT_BEFORE
+0   OFFICE            0.0         0.0        3600.0        3600.0         False          0.0
+1        2            0.0      8400.0        2400.0       10800.0         False          0.0
+2   OFFICE          284.0     11084.0        3600.0        3600.0         False          0.0
+3   OFFICE            0.0     16200.0        3600.0        3600.0          True          0.0
+
+#Final cost: 48574.0
