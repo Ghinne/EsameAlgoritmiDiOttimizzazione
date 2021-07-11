@@ -16,3 +16,7 @@
 - Prioritizzare i meeting;
 - Minimizzare gli spostamenti;
 - Favorire grossi blocchi di lavoro uguale (minimizzare i cambiamenti tra lavoro di ufficio e meeting),
+
+## Modelli risolutivi
+### Programmazione lineare intera
+### Programmazione dinamica
