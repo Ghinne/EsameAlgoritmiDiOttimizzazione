@@ -17,5 +17,5 @@
 - Minimize travels;
 
 ## Models:
-### [Integer Linear Programming](https://github.com/Ghinne/EsameAlgoritmiDiOttimizzazione/blob/main/ESAMEILP.pdf)
+### [Integer Linear Programming](https://github.com/Ghinne/EsameAlgoritmiDiOttimizzazione/blob/main/ESAMEIQP.pdf)
 ### [Dynamic Programming](https://github.com/Ghinne/EsameAlgoritmiDiOttimizzazione/blob/main/ESAMEHEURISTIC.pdf)
