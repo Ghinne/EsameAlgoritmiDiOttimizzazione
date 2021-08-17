@@ -18,4 +18,4 @@
 
 ## Models:
 ### [Integer Quadratic Programming](https://github.com/Ghinne/EsameAlgoritmiDiOttimizzazione/blob/main/ESAMEIQP.pdf)
-### [Dynamic Programming](https://github.com/Ghinne/EsameAlgoritmiDiOttimizzazione/blob/main/ESAMEHEURISTIC.pdf)
+### [Heuristic set cover](https://github.com/Ghinne/EsameAlgoritmiDiOttimizzazione/blob/main/ESAMEHEURISTIC.pdf)
