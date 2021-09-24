@@ -17,5 +17,5 @@
 - Minimize travels;
 
 ## Models:
-### [Integer Quadratic Programming](https://github.com/Ghinne/EsameAlgoritmiDiOttimizzazione/blob/main/ESAMEIQP.pdf)
-### [Dynamic Programming](https://github.com/Ghinne/EsameAlgoritmiDiOttimizzazione/blob/main/ESAMEHEURISTIC.pdf)
+### [Integer Quadratic Programming](https://github.com/Ghinne/EsameAlgoritmiDiOttimizzazione/blob/main/ESAME_IQP.pdf)
+### [Heuristic set cover](https://github.com/Ghinne/EsameAlgoritmiDiOttimizzazione/blob/main/ESAMEHEURISTIC.pdf)
